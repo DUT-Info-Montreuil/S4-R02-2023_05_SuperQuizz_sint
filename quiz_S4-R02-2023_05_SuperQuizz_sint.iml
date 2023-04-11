@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../quiz_S4-R02-2023_05_SuperQuizz_questionnaire-sme/out/production/quiz_S4-R02-2023_05_SuperQuizz_questionnaire-sme" />
+          <root url="file://$MODULE_DIR$/../S4-R02-2023_05_SuperQuizz_questionnaire-sme/out/production/S4-R02-2023_05_SuperQuizz_questionnaire-sme" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
