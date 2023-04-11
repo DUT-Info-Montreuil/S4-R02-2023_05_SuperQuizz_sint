@@ -9,6 +9,13 @@ public class BestOfQuestionnaireDTO {
     private QuestionDTO questionPireReussite;
     private QuestionDTO  questionMeilleurReussite;
 
+    public BestOfQuestionnaireDTO(int idQuestionnaire, int nbDeFoisJoueQuestionnaire, QuestionDTO questionPireReussite, QuestionDTO questionMeilleurReussite) {
+        this.idQuestionnaire = idQuestionnaire;
+        this.nbDeFoisJoueQuestionnaire = nbDeFoisJoueQuestionnaire;
+        this.questionPireReussite = questionPireReussite;
+        this.questionMeilleurReussite = questionMeilleurReussite;
+    }
+
     public int getIdQuestionnaire() {
         return idQuestionnaire;
     }
