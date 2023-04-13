@@ -9,6 +9,8 @@ public class BestOfQuestionnaireDTO {
     private QuestionDTO questionPireReussite;
     private QuestionDTO  questionMeilleurReussite;
 
+    public BestOfQuestionnaireDTO(){}
+
     public BestOfQuestionnaireDTO(int idQuestionnaire, int nbDeFoisJoueQuestionnaire, QuestionDTO questionPireReussite, QuestionDTO questionMeilleurReussite) {
         this.idQuestionnaire = idQuestionnaire;
         this.nbDeFoisJoueQuestionnaire = nbDeFoisJoueQuestionnaire;
@@ -46,6 +48,16 @@ public class BestOfQuestionnaireDTO {
 
     public void setQuestionMeilleurReussite(QuestionDTO questionMeilleurReussite) {
         this.questionMeilleurReussite = questionMeilleurReussite;
+    }
+
+    @Override
+    public String toString() {
+        return "BestOfQuestionnaireDTO{" +
+                "idQuestionnaire=" + idQuestionnaire +
+                ", nbDeFoisJoueQuestionnaire=" + nbDeFoisJoueQuestionnaire +
+                ", questionPireReussite=" + questionPireReussite +
+                ", questionMeilleurReussite=" + questionMeilleurReussite +
+                '}';
     }
 }
 
