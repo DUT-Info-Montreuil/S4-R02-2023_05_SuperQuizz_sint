@@ -9,7 +9,7 @@ import fr.iut.montreuil.S4_R02_2023_05_SuperQuizz.joueur_sme.entities.dto.Partie
 
 public interface IServiceStatistiqueJoueur {
 	
-	public Collection<PartieJoueurDTO> recupererStatistiques();
+	public Collection<PartieJoueurDTO> recupererStatistiques(JoueurDTO joueur);
 	
 	public TreeSet<PartieJoueurDTO> trierPartie(Collection<PartieJoueurDTO> parties);
 	
